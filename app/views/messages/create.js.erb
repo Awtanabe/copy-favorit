@@ -1,2 +1,2 @@
-document.getElementById('message').append("<%= @messages.message%> <br>")
-<% binding.pry %>
+console.log($('#message-container'))
+$('#message-container').append("<%= @message.message%> <br>")
